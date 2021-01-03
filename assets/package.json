@@ -1,0 +1,30 @@
+{
+  "name": "console_logger",
+  "version": "1.0.0",
+  "description": "Wrapper for phoenix sockets that forwards javascript console logs to the backend.",
+  "license": "MIT",
+  "main": "./priv/static/console_logger.js",
+  "module": "./assets/js/console_logger.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nathanjohnson320/console_logger.git"
+  },
+  "author": "Nathan Johnson <nathanjohnson320@gmail.com>",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "expose-loader": "^0.7.5",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "phoenix": "file:../deps/phoenix"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch"
+  }
+}

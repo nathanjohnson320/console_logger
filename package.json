@@ -1,0 +1,22 @@
+{
+  "name": "console_logger",
+  "version": "1.0.0",
+  "description": "Wrapper for phoenix sockets that forwards javascript console logs to the backend.",
+  "main": "./priv/static/console_logger.js",
+  "files": [
+    "README.md",
+    "LICENSE.md",
+    "package.json",
+    "priv/static/console_logger.js",
+    "assets/js/console_logger.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nathanjohnson320/console_logger.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan Johnson <nathanjohnson320@gmail.com>",
+  "license": "MIT"
+}
